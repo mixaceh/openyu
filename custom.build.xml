@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project basedir="." name="openyu.j" default="default">
+	<!-- ========================================================== -->
+	<!-- Property declarations                                      -->
+	<!-- ========================================================== -->
+
+	<!-- ========================================================== -->
+	<!-- Include declarations                                       -->
+	<!-- ========================================================== -->
+	<!-- #include -->
+
+	<!-- ========================================================== -->
+	<target name="default">
+
+	</target>
+
+	<!-- ========================================================== -->
+	<target name="gitToSvn" description="gitToSvn">
+
+	</target>
+
+	<target name="svnToGit" description="svnToGit">
+
+	</target>
+	
+</project>
