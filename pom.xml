@@ -15,11 +15,22 @@
 		<url>http://www.openyu.org</url>
 	</organization>
 
+	<inceptionYear>2015</inceptionYear>
+	<licenses>
+		<license>
+			<name>Apache 2</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+			<comments>A business-friendly OSS license</comments>
+		</license>
+	</licenses>
+
 	<properties>
 		<com.name>openyu</com.name>
 		<package.name>org.openyu</package.name>
 		<jdk.version>1.7</jdk.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.encoding>UTF-8</maven.compiler.encoding>		
 		<!--  
 		<maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss.SSS</maven.build.timestamp.format>
 		-->
@@ -2076,7 +2087,7 @@
 			<artifactId>vtd-xml</artifactId>
 			<version>2.11</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.glassfish.jersey.containers</groupId>
 			<artifactId>jersey-container-servlet</artifactId>
@@ -2118,47 +2129,47 @@
 			<version>2.15</version>
 		</dependency>
 		<dependency>
-		    <groupId>org.glassfish.jersey.ext</groupId>
-		    <artifactId>jersey-mvc</artifactId>
-		    <version>2.15</version>
+			<groupId>org.glassfish.jersey.ext</groupId>
+			<artifactId>jersey-mvc</artifactId>
+			<version>2.15</version>
 		</dependency>
 		<dependency>
-		    <groupId>org.glassfish.jersey.ext</groupId>
-		    <artifactId>jersey-mvc-jsp</artifactId>
-		    <version>2.15</version>
+			<groupId>org.glassfish.jersey.ext</groupId>
+			<artifactId>jersey-mvc-jsp</artifactId>
+			<version>2.15</version>
 		</dependency>
 		<dependency>
 			<groupId>org.glassfish.jersey.ext</groupId>
 			<artifactId>jersey-mvc-freemarker</artifactId>
 			<version>2.15</version>
 		</dependency>
-		
+
 		<dependency>
-		    <groupId>fr.opensagres.xdocreport</groupId>
-		    <artifactId>org.apache.poi.xwpf.converter.xhtml</artifactId>
-		    <version>1.0.0</version>
+			<groupId>fr.opensagres.xdocreport</groupId>
+			<artifactId>org.apache.poi.xwpf.converter.xhtml</artifactId>
+			<version>1.0.0</version>
 		</dependency>
 		<dependency>
-		    <groupId>fr.opensagres.xdocreport</groupId>
-		    <artifactId>org.apache.poi.xwpf.converter.pdf</artifactId>
-		    <version>1.0.0</version>
-		</dependency> 		
-		
-	   <dependency>  
-            <groupId>org.apache.activemq</groupId>  
-            <artifactId>activemq-core</artifactId>  
-            <version>5.7.0</version>  
-        </dependency>  
-        <dependency>  
-            <groupId>org.apache.activemq</groupId>  
-            <artifactId>activemq-spring</artifactId>  
-            <version>5.11.0</version>  
-        </dependency>  		
-		<dependency>  
-            <groupId>org.springframework</groupId>  
-            <artifactId>spring-jms</artifactId>  
-            <version>${spring.version}</version>  
-        </dependency>  
+			<groupId>fr.opensagres.xdocreport</groupId>
+			<artifactId>org.apache.poi.xwpf.converter.pdf</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-core</artifactId>
+			<version>5.7.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-spring</artifactId>
+			<version>5.11.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jms</artifactId>
+			<version>${spring.version}</version>
+		</dependency>  
 		<!--  
 		<dependency>
 			<groupId>javax.annotation</groupId>
