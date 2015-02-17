@@ -1,2 +1,1 @@
-# openyu.j
-OpenYu Java
+# OpenYu Java
