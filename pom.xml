@@ -18,9 +18,7 @@
 	<properties>
 		<com.name>openyu</com.name>
 		<package.name>org.openyu</package.name>
-		<!--  
 		<jdk.version>1.7</jdk.version>
-		-->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<!--  
 		<maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss.SSS</maven.build.timestamp.format>
@@ -2079,7 +2077,6 @@
 			<version>2.11</version>
 		</dependency>
 		
-		<!-- 2015/02/12 -->
 		<dependency>
 			<groupId>org.glassfish.jersey.containers</groupId>
 			<artifactId>jersey-container-servlet</artifactId>
@@ -2268,10 +2265,8 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.2</version>
 					<configuration>
-						<!--  
 						<source>${jdk.version}</source>
 						<target>${jdk.version}</target>
-						-->
 						<encoding>${project.build.sourceEncoding}</encoding>
 						<verbose>true</verbose>
 						<fork>true</fork>
