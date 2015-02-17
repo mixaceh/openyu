@@ -2602,9 +2602,9 @@
 						<testFailureIgnore>true</testFailureIgnore>
 						<!--  
 						<includes>
-							<include>org/openyu/sfc/*Test.java</include>
-							<include>org/openyu/sfc/enumz/*Test.java</include>
-							<include>org/openyu/sfc/jaxb/*Test.java</include>
+							<include>org/openyu/commons/*Test.java</include>
+							<include>org/openyu/commons/enumz/*Test.java</include>
+							<include>org/openyu/commons/jaxb/*Test.java</include>
 						</includes>
 						-->
 					</configuration>
@@ -2627,9 +2627,9 @@
 						<instrumentation>
 							<!--  
 							<includes>
-								<include>org/openyu/sfc/*.class</include>
-								<include>org/openyu/sfc/enumz/*.class</include>
-								<include>org/openyu/sfc/jaxb/*.class</include>
+								<include>org/openyu/commons/*.class</include>
+								<include>org/openyu/commons/enumz/*.class</include>
+								<include>org/openyu/commons/jaxb/*.class</include>
 							</includes>
 							-->
 						</instrumentation>
