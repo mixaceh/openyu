@@ -51,7 +51,7 @@ under the License.
    | Default: ${user.home}/.m2/repository
   <localRepository>/path/to/local/repo</localRepository>
   -->
-	<localRepository>D:\MKPL\00_Public\09_Nexus\repository</localRepository>
+	<localRepository>D:\env\trunk\java\lib\nexus\repository</localRepository>
 
   <!-- interactiveMode
    | This will determine whether maven prompts you when it needs input. If set to false,
@@ -130,6 +130,7 @@ under the License.
       <passphrase>optional; leave empty if not used.</passphrase>
     </server>
     -->
+
 		<server>
 			<id>internal</id>
 			<username>admin</username>
@@ -161,12 +162,13 @@ under the License.
       <url>http://my.repository.com/repo/path</url>
     </mirror>
      -->
+
 		<mirror>
 			<id>nexus</id>
-			<url>http://10.16.210.180:8090/nexus/content/groups/public</url>
 			<mirrorOf>*</mirrorOf>
+			<name>nexus</name>
+			<url>http://127.0.0.1:8090/nexus/content/groups/public</url>
 		</mirror>
-
 	</mirrors>
   
   <!-- profiles
@@ -259,8 +261,8 @@ under the License.
 		<profile>
 			<id>compiler</id>
 			<properties>
-				<JAVA_1_6_HOME>D:\env\java\lib\jdk1.6.0_31</JAVA_1_6_HOME>
-				<JAVA_1_7_HOME>D:\env\java\lib\jdk1.7.0_60</JAVA_1_7_HOME>
+				<JAVA_1_6_HOME>D:\env\trunk\java\lib\jdk1.6.0_37</JAVA_1_6_HOME>
+				<JAVA_1_7_HOME>D:\env\trunk\java\lib\jdk1.7.0_75</JAVA_1_7_HOME>
 			</properties>
 		</profile>
 	</profiles>
