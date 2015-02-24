@@ -4,4 +4,5 @@
 c:>C:\hsqldb-2.3.2\hsqldb\bin\runServer.bat
 
 3.啟動HSQL Database Manager
+
 c:>C:\hsqldb-2.3.2\hsqldb\bin\runManagerSwing.bat
