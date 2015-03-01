@@ -1,0 +1,4 @@
+2/24-3/3  java test-win
+3/4-9 java test-linux
+3/4 programing training
+3/6 maven training
