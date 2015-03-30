@@ -1192,6 +1192,10 @@
 					<artifactId>stax-api</artifactId>
 					<groupId>stax</groupId>
 				</exclusion>
+				<exclusion>
+					<artifactId>zookeeper</artifactId>
+					<groupId>org.apache.zookeeper</groupId>
+				</exclusion>
 			</exclusions>
 		</dependency>
 		<dependency>
@@ -1199,6 +1203,7 @@
 			<artifactId>jgroups</artifactId>
 			<version>3.6.1.Final</version>
 		</dependency>
+		
 		<!--  
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -1236,6 +1241,16 @@
 			<groupId>org.apache.struts.xwork</groupId>
 			<artifactId>xwork-core</artifactId>
 			<version>${struts.version}</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>asm</artifactId>
+					<groupId>org.ow2.asm</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>asm-commons</artifactId>
+					<groupId>org.ow2.asm</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.struts</groupId>
@@ -1318,7 +1333,7 @@
 					<groupId>org.jboss.netty</groupId>
 				</exclusion>
 			</exclusions>
-		</dependency>
+		</dependency>		
 		<dependency>
 			<groupId>org.apache.mina</groupId>
 			<artifactId>mina-core</artifactId>
@@ -1434,6 +1449,10 @@
 					<artifactId>jaxb-impl</artifactId>
 					<groupId>com.sun.xml.bind</groupId>
 				</exclusion>
+				<exclusion>
+					<artifactId>zookeeper</artifactId>
+					<groupId>org.apache.zookeeper</groupId>
+				</exclusion>
 			</exclusions>
 		</dependency>
 		<dependency>
@@ -1499,6 +1518,10 @@
 				<exclusion>
 					<artifactId>avro</artifactId>
 					<groupId>org.apache.avro</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>zookeeper</artifactId>
+					<groupId>org.apache.zookeeper</groupId>
 				</exclusion>
 			</exclusions>
 		</dependency>
