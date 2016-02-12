@@ -1,12 +1,12 @@
-# OpenYu Java
+# OpenYu
 
-OpenYu Archetype Java https://github.com/mixaceh/openyu-archetype.j
+OpenYu Archetype https://github.com/mixaceh/openyu-archetype
 
-OpenYu Commons Java https://github.com/mixaceh/openyu-commons.j
+OpenYu Commons https://github.com/mixaceh/openyu-commons
 
-OpenYu Socklet Java https://github.com/mixaceh/openyu-socklet.j
+OpenYu Socklet https://github.com/mixaceh/openyu-socklet
 
-OpenYu Mysterious I X Java https://github.com/mixaceh/openyu-mix.j
+OpenYu Mysterious I X https://github.com/mixaceh/openyu-mix
 
-OpenYu Content Management System Java https://github.com/mixaceh/openyu-cms.j
+OpenYu Content Management System https://github.com/mixaceh/openyu-cms
 
